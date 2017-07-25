@@ -96,4 +96,6 @@ session.findById("wnd[1]/usr/tabsG50_TABSTRIP/tabpTAB_D0501/ssubD0505_SUBSCREEN:
 session.findById("wnd[1]/usr/tabsG50_TABSTRIP/tabpTAB_D0501/ssubD0505_SUBSCREEN:SAPLSLVC_DIALOG:0501/txtLTDXT-TEXT").setFocus
 session.findById("wnd[1]/usr/tabsG50_TABSTRIP/tabpTAB_D0501/ssubD0505_SUBSCREEN:SAPLSLVC_DIALOG:0501/txtLTDXT-TEXT").caretPosition = 7
 session.findById("wnd[1]/tbar[0]/btn[0]").press
+
+On Error Resume Next
 session.findById("wnd[2]/usr/btnSPOP-OPTION1").press
