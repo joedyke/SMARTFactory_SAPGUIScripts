@@ -1,2 +1,0 @@
-# SMARTFactory_SAPGUIScripts
-VBS_Scripts
