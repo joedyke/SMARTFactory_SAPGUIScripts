@@ -91,7 +91,6 @@ session.findById("wnd[0]/usr/chkNOZERO").selected = False
 Session.findById("wnd[0]/usr/radPA_FLT").SetFocus
 Session.findById("wnd[0]/usr/radPA_FLT").Select
 session.findById("wnd[0]/usr/ctxtP_VARI").text = VarName
-wscript.quit
 
 Session.findById("wnd[0]/tbar[1]/btn[8]").press
 
